@@ -1,0 +1,22 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.tfvars
+
+# Ignore any local provider plugins
+.terraform/providers/
+
+# Ignore any local modules
+.terraform/modules/
+
+# Ignore the .terraform.lock.hcl file, which can contain sensitive information
+.terraform.lock.hcl
+
+# Ignore .terraformrc and terraform.rc files, which can contain sensitive information
+.terraformrc
+terraform.rc
+
+# Ignore any files created by the Terraform CLI, such as log files
+terraform.log
