@@ -1,0 +1,4 @@
+# This is a comment
+*.tf    @ardita
+EC2/*  @ardita
+S3/*  @ardita
