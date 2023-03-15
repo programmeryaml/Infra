@@ -12,4 +12,4 @@ jobs:
       - name: Auto-approve pull request
         uses: peter-evans/approve-pull-request-action@v1
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
